@@ -1,8 +1,7 @@
-﻿<!DOCTYPE HTML>
 <html lang="">
   <head>
     <meta charset="utf-8" />
-    <title>爱心代码</title>
+    <title>🐻❤️🐼</title>
     <style>
       html, body {
         height: 100%;
@@ -24,10 +23,11 @@
 			transform: translate(0, -50%);
 			text-align: center;
 			color: #ea80b0;
+			font-size: 120%;
 		}
 		
 		.timer {
-			font-size: 150%;
+			font-size: 160%;
 			<!-- line-height: 1.5; -->
 			<!-- margin: 1em 0; -->
 		}
@@ -40,11 +40,12 @@
   <body>
     <canvas id="pinkboard" width="1873" height="218"></canvas>
 	<div class="content">
-        <p>🐻🐼我哋系埋一齐</p>
+        <p>🐻🐼已经系埋一齐</p>
         <div class="timer">
             <p><b id="d"></b> 日</p>
         </div>
 		<p><b id="h"></b> 小时 <b id="m"></b> 分钟 <b id="s"></b> 秒</p>
+		<p>啦~ 🐷</p>
     </div>
     <script>
       var settings = {
@@ -280,8 +281,8 @@
         }
         // 处理（重新）画布的大小
         function onResize() {
-          canvas.width = canvas.clientWidth;
-          canvas.height = canvas.clientHeight;
+          canvas.width = canvas.clientWidth*0.5;
+          canvas.height = canvas.clientHeight*0.5;
         }
         window.onresize = onResize;
         //延迟渲染
